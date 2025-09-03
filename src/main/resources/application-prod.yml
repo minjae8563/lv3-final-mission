@@ -1,7 +1,7 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://malone-lv3-prod-rds.cqsc6pyqhwww.ap-northeast-2.rds.amazonaws.com:3306/mydb?useSSL=false&serverTimezone=UTC
+    url: jdbc:mysql://malone-lv3-prod-rds.cqsc6pyqhwww.ap-northeast-2.rds.amazonaws.com:3306/mydb?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
     username: ${DB_USERNAME}
     password: ${DB_PASSWORD}
 
